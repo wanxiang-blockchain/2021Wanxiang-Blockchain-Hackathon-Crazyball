@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "storeNavBg",
+    "texture": "eaaebc0b-eb4f-4aea-bac8-8015cafd57cd",
+    "atlas": "",
+    "rect": [
+      2,
+      0,
+      296,
+      9
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      300,
+      11
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

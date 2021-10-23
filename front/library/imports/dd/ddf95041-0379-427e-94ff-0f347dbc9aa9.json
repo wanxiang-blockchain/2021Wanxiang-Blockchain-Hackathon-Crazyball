@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "强力球",
+    "texture": "5fe6be9a-29aa-4195-84d7-28b9f20e3a68",
+    "atlas": "",
+    "rect": [
+      8,
+      9,
+      25,
+      25
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      41,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

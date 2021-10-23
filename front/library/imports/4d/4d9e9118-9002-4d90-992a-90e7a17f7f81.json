@@ -1,0 +1,206 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "anim.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "angle": {
+      "__uuid__": "481299ef-2418-49e3-abed-b91cc9f52460"
+    },
+    "arrow": {
+      "__uuid__": "cf2b538f-981d-4885-8195-d6015fee1697"
+    },
+    "ball": {
+      "__uuid__": "faa68455-78d3-4b15-b932-b35fdc694781"
+    },
+    "ball_trail": {
+      "__uuid__": "999bf221-1197-4f19-b079-b953c8750ae2"
+    },
+    "cannon_head2": {
+      "__uuid__": "e513015e-0f91-43a2-8c87-4d652fc6ff8e"
+    },
+    "check": {
+      "__uuid__": "4df9363a-70e7-4188-b002-ac3479201370"
+    },
+    "check_red": {
+      "__uuid__": "4085bbf3-25e5-43ab-9829-7dc4dce229b4"
+    },
+    "check_white": {
+      "__uuid__": "24556053-62ad-43f7-8ed9-4ab03d2e4c22"
+    },
+    "check_yellow": {
+      "__uuid__": "8527223c-2c04-4df8-ae32-4bc42b3af486"
+    },
+    "circle": {
+      "__uuid__": "be74b098-c752-44c6-9c6c-1ce91f173a31"
+    },
+    "circle_boarder": {
+      "__uuid__": "4c23d262-b9ef-48df-849e-41b17a5bcf25"
+    },
+    "circle_boarder_glow": {
+      "__uuid__": "a8c907ba-33d4-40ac-aeee-8949f455f5c0"
+    },
+    "circle_fade": {
+      "__uuid__": "be1fbb00-2ad5-4b0c-9133-d0c5500e95d8"
+    },
+    "circle_glow": {
+      "__uuid__": "b65e24f3-5041-4c83-a6b1-a628128351a1"
+    },
+    "circle_half": {
+      "__uuid__": "fe284ea4-e182-4128-b1cc-8ecd05161c9e"
+    },
+    "circle_moon": {
+      "__uuid__": "a0a320d8-6cd1-4232-a222-ba67fd147cc9"
+    },
+    "circle_ring": {
+      "__uuid__": "14e71b53-29a0-469f-b1b8-2643b6ce18de"
+    },
+    "circledot": {
+      "__uuid__": "5c845bba-50fe-45b0-886a-e5ea6389d05c"
+    },
+    "circledouble": {
+      "__uuid__": "67d4a6aa-5262-4bed-b1e2-5d4ef1b02e10"
+    },
+    "cut_progress": {
+      "__uuid__": "0e6f9af1-db05-4036-9a99-eaa8222dcc6d"
+    },
+    "hexagon": {
+      "__uuid__": "df75319f-5278-4611-9796-caaa807ae81f"
+    },
+    "hexagon_boarder": {
+      "__uuid__": "1c5ec9bc-0a70-497b-99b5-65af11fa1e35"
+    },
+    "hexagon_boarder_glow": {
+      "__uuid__": "b9f42ff3-03bf-4918-9cd2-2b043a5189a0"
+    },
+    "hexagon_rounded": {
+      "__uuid__": "3bd05aab-45d9-4329-98ba-583ab0d85430"
+    },
+    "hexagon_rounded_boarder": {
+      "__uuid__": "d82ab246-7cb7-4be4-9081-21194a3f77d1"
+    },
+    "hexn": {
+      "__uuid__": "72377451-5086-4ede-843e-66580f9ec36c"
+    },
+    "hoop_bar": {
+      "__uuid__": "89b393d9-a7fa-4b53-9988-9f9aa47df3cb"
+    },
+    "info": {
+      "__uuid__": "747fc406-58e8-4e7e-b07e-77bb923db385"
+    },
+    "long_rounded_button": {
+      "__uuid__": "4d955281-36b4-47d9-93ca-c091a2939599"
+    },
+    "new": {
+      "__uuid__": "fd14ac0c-c7b2-41fc-b021-d3b07b461dd8"
+    },
+    "oval_back": {
+      "__uuid__": "78e7fc3b-6d7b-4970-bf24-add7678473d3"
+    },
+    "power1": {
+      "__uuid__": "d9d8eee0-2b5a-4236-9e2c-2f9dd75c911b"
+    },
+    "power2": {
+      "__uuid__": "c1ecd8a4-f242-4422-a612-68e2c6cec80f"
+    },
+    "power3": {
+      "__uuid__": "7ff150a4-8306-4481-b587-c9d141b5e050"
+    },
+    "ribbon": {
+      "__uuid__": "e00e0af0-5df5-4651-98bc-f8700db9a766"
+    },
+    "ring": {
+      "__uuid__": "6b8c193c-26ea-48d6-b9f7-7924e18c9fee"
+    },
+    "snow1": {
+      "__uuid__": "69b1b9dc-e929-4973-a034-fad90ddd39de"
+    },
+    "snow2": {
+      "__uuid__": "40fb0bf6-501c-49a7-857b-798aee08717a"
+    },
+    "spark1": {
+      "__uuid__": "8efd49b5-8350-4cac-ae9d-28f82dbff9f2"
+    },
+    "spark2": {
+      "__uuid__": "3804ca8e-148e-4c2d-8e67-10f10e9f42de"
+    },
+    "spark3": {
+      "__uuid__": "1a0b6d33-c798-4e2f-abec-180249a24aa6"
+    },
+    "spark4": {
+      "__uuid__": "a34c85db-6a36-4700-967d-003100d1c771"
+    },
+    "spike": {
+      "__uuid__": "6a02ee59-9630-416f-92d3-649c4cea2411"
+    },
+    "spike2": {
+      "__uuid__": "4648e783-3003-4a14-97cf-7f6467b59829"
+    },
+    "square": {
+      "__uuid__": "02dfc04e-3e0f-4ae6-90a7-97e89e770460"
+    },
+    "square_boarder": {
+      "__uuid__": "7255bd3a-0165-4889-b961-19ac1a934c2f"
+    },
+    "square_boarder_glow": {
+      "__uuid__": "bd19f909-8a0c-43c7-a1b5-affde52b451a"
+    },
+    "square_half": {
+      "__uuid__": "25e434ff-3f81-4481-ad90-2e3a74a7859b"
+    },
+    "square_rounded": {
+      "__uuid__": "e7e1e4a0-fb36-4f29-af9a-7ec4ea7c9db5"
+    },
+    "square_rounded_boarder": {
+      "__uuid__": "25f9d46f-11d3-45e3-b717-599269828d1a"
+    },
+    "star": {
+      "__uuid__": "0c9e79d8-2766-4f96-a9ac-7a4af29bcbbc"
+    },
+    "star2": {
+      "__uuid__": "0cff0a0a-0e64-476d-95df-35ceddbaceff"
+    },
+    "star3": {
+      "__uuid__": "ad29a98a-13a3-4b6f-b2a2-0910cd47f33a"
+    },
+    "star4": {
+      "__uuid__": "b45401c4-d1c5-4101-84f0-1308a1eeb153"
+    },
+    "star5": {
+      "__uuid__": "01b03390-c80e-4f84-aa4e-f4e0b2af5f1f"
+    },
+    "star6": {
+      "__uuid__": "c484f755-0186-44fd-8397-d94711fc585c"
+    },
+    "star_color": {
+      "__uuid__": "037de6fb-2181-4aaf-810f-02d0d6a3cd16"
+    },
+    "star_glow": {
+      "__uuid__": "bbddee14-99ee-4498-8f59-7bbdf53e5f90"
+    },
+    "star_grey": {
+      "__uuid__": "81c076ed-f041-4935-91e5-41a708f5d645"
+    },
+    "starfat": {
+      "__uuid__": "3d5bd68a-aa09-403d-ad52-84cedb291db7"
+    },
+    "starn12": {
+      "__uuid__": "435fd405-d34c-45fc-a1e6-0d1a8d8706c0"
+    },
+    "triangle": {
+      "__uuid__": "c89d2f1a-3a88-49a4-90fd-e2d9547479cb"
+    },
+    "triangle_boarder": {
+      "__uuid__": "4bc38563-ee6e-4f93-a657-8f6c688772c9"
+    },
+    "triangle_boarder_glow": {
+      "__uuid__": "962d1e8f-e0a2-4c0f-b788-f308bd836dba"
+    },
+    "triangle_rounded": {
+      "__uuid__": "0cffe212-8329-4bbf-aa78-96f961bb2288"
+    },
+    "triangle_rounded_boarder": {
+      "__uuid__": "96bc21ff-c5ec-4291-99e4-0073f7bf7441"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "video",
+    "texture": "c1a3b76d-1b1e-42f3-8b0a-22a054e39809",
+    "atlas": "",
+    "rect": [
+      7,
+      11,
+      86,
+      78
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

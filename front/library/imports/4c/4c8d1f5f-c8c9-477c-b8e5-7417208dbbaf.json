@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "longTap",
+    "texture": "02c01034-cae5-414a-8ad8-21f27c23dae0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      330,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      330,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

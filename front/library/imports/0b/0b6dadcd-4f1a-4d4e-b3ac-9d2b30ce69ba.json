@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "overLine",
+    "texture": "0d82e08f-61bb-4b82-8581-7cafd3fc077f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      4
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      4
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

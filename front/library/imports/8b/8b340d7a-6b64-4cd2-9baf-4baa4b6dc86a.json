@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "发射大球",
+    "texture": "54825b1a-5f51-4aef-8b3c-d990c1346f29",
+    "atlas": "",
+    "rect": [
+      12,
+      12,
+      56,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

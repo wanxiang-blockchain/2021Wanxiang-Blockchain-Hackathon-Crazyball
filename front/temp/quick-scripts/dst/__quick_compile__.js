@@ -1,0 +1,267 @@
+
+(function () {
+var scripts = [{"deps":{"./assets/migration/use_reversed_rotateTo":2,"./assets/src/game/PackItem":7,"./assets/src/game/common/Common":10,"./assets/src/common/base/SingletonClass":18,"./assets/src/common/pool/ui_pool":20,"./assets/src/common/loader/loader_mgr":26,"./assets/src/common/linklist":30,"./assets/src/game/MainView":3,"./assets/src/common/util":6,"./assets/src/game/common/CommonLabelScroll":1,"./assets/src/game/GameView":8,"./assets/src/game/GameConst":9,"./assets/src/game/item/BrickItem":4,"./assets/src/game/StoreView":12,"./assets/src/game/model/GameModel":5,"./assets/src/game/StoreItem":14,"./assets/src/game/PackView":15,"./assets/src/game/StorePay":16,"./assets/src/game/Over":17,"./assets/src/game/item/BallItem":11,"./assets/src/game/model/State":13,"./assets/src/common/audio/AudioPlayer":19,"./assets/src/common/random/RandomUtil":21,"./assets/src/common/localStorage/LocalStorage":22,"./assets/src/common/ui/pop_mgr":23,"./assets/src/common/timer/timer_mgr":24,"./assets/src/common/event/EventDispatch":25,"./assets/src/common/tween/Tween":27,"./assets/src/common/pool/pool_mgr":28,"./assets/src/common/ui/pop_ui_base":29},"path":"preview-scripts/__qc_index__.js"},{"deps":{"../../common/tween/Tween":27},"path":"preview-scripts/assets/src/game/common/CommonLabelScroll.js"},{"deps":{},"path":"preview-scripts/assets/migration/use_reversed_rotateTo.js"},{"deps":{"./common/Common":10,"./model/State":13},"path":"preview-scripts/assets/src/game/MainView.js"},{"deps":{"../model/GameModel":5,"../../common/event/EventDispatch":25,"../GameConst":9,"./BallItem":11,"../../common/audio/AudioPlayer":19},"path":"preview-scripts/assets/src/game/item/BrickItem.js"},{"deps":{"../../common/event/EventDispatch":25,"../../common/base/SingletonClass":18},"path":"preview-scripts/assets/src/game/model/GameModel.js"},{"deps":{"../common/loader/loader_mgr":26},"path":"preview-scripts/assets/src/common/util.js"},{"deps":{},"path":"preview-scripts/assets/src/game/PackItem.js"},{"deps":{"./item/BallItem":11,"./GameConst":9,"./model/GameModel":5,"./item/BrickItem":4,"../common/random/RandomUtil":21,"../common/event/EventDispatch":25,"../common/audio/AudioPlayer":19,"../common/util":6,"../common/loader/loader_mgr":26,"../common/tween/Tween":27,"../common/timer/timer_mgr":24,"./common/Common":10,"./model/State":13},"path":"preview-scripts/assets/src/game/GameView.js"},{"deps":{"../common/base/SingletonClass":18},"path":"preview-scripts/assets/src/game/GameConst.js"},{"deps":{},"path":"preview-scripts/assets/src/game/common/Common.js"},{"deps":{"../GameConst":9,"../model/GameModel":5},"path":"preview-scripts/assets/src/game/item/BallItem.js"},{"deps":{"./model/State":13},"path":"preview-scripts/assets/src/game/StoreView.js"},{"deps":{"../../common/base/SingletonClass":18},"path":"preview-scripts/assets/src/game/model/State.js"},{"deps":{"./common/Common":10,"./model/State":13},"path":"preview-scripts/assets/src/game/StoreItem.js"},{"deps":{"./model/State":13},"path":"preview-scripts/assets/src/game/PackView.js"},{"deps":{"./common/Common":10,"./model/State":13},"path":"preview-scripts/assets/src/game/StorePay.js"},{"deps":{"./common/Common":10,"./model/GameModel":5,"../common/audio/AudioPlayer":19,"../common/event/EventDispatch":25,"./model/State":13},"path":"preview-scripts/assets/src/game/Over.js"},{"deps":{},"path":"preview-scripts/assets/src/common/base/SingletonClass.js"},{"deps":{"../loader/loader_mgr":26,"../util":6,"../base/SingletonClass":18,"../localStorage/LocalStorage":22},"path":"preview-scripts/assets/src/common/audio/AudioPlayer.js"},{"deps":{},"path":"preview-scripts/assets/src/common/pool/ui_pool.js"},{"deps":{"../base/SingletonClass":18},"path":"preview-scripts/assets/src/common/random/RandomUtil.js"},{"deps":{"../base/SingletonClass":18},"path":"preview-scripts/assets/src/common/localStorage/LocalStorage.js"},{"deps":{"../pool/pool_mgr":28,"../util":6,"./pop_ui_base":29,"../timer/timer_mgr":24,"../tween/Tween":27},"path":"preview-scripts/assets/src/common/ui/pop_mgr.js"},{"deps":{"../linklist":30},"path":"preview-scripts/assets/src/common/timer/timer_mgr.js"},{"deps":{"../base/SingletonClass":18},"path":"preview-scripts/assets/src/common/event/EventDispatch.js"},{"deps":{},"path":"preview-scripts/assets/src/common/loader/loader_mgr.js"},{"deps":{"../timer/timer_mgr":24,"../util":6},"path":"preview-scripts/assets/src/common/tween/Tween.js"},{"deps":{"../loader/loader_mgr":26,"./ui_pool":20},"path":"preview-scripts/assets/src/common/pool/pool_mgr.js"},{"deps":{"./pop_mgr":23,"../pool/pool_mgr":28,"../util":6,"../../common/audio/AudioPlayer":19},"path":"preview-scripts/assets/src/common/ui/pop_ui_base.js"},{"deps":{},"path":"preview-scripts/assets/src/common/linklist.js"}];
+var entries = ["preview-scripts/__qc_index__.js"];
+var bundleScript = 'preview-scripts/__qc_bundle__.js';
+
+/**
+ * Notice: This file can not use ES6 (for IE 11)
+ */
+var modules = {};
+var name2path = {};
+
+// Will generated by module.js plugin
+// var scripts = ${scripts};
+// var entries = ${entries};
+// var bundleScript = ${bundleScript};
+
+if (typeof global === 'undefined') {
+    window.global = window;
+}
+
+var isJSB = typeof jsb !== 'undefined';
+
+function getXMLHttpRequest () {
+    return window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject('MSXML2.XMLHTTP');
+}
+
+function downloadText(url, callback) {
+    if (isJSB) {
+        var result = jsb.fileUtils.getStringFromFile(url);
+        callback(null, result);
+        return;
+    }
+
+    var xhr = getXMLHttpRequest(),
+        errInfo = 'Load text file failed: ' + url;
+    xhr.open('GET', url, true);
+    if (xhr.overrideMimeType) xhr.overrideMimeType('text\/plain; charset=utf-8');
+    xhr.onload = function () {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200 || xhr.status === 0) {
+                callback(null, xhr.responseText);
+            }
+            else {
+                callback({status:xhr.status, errorMessage:errInfo + ', status: ' + xhr.status});
+            }
+        }
+        else {
+            callback({status:xhr.status, errorMessage:errInfo + '(wrong readyState)'});
+        }
+    };
+    xhr.onerror = function(){
+        callback({status:xhr.status, errorMessage:errInfo + '(error)'});
+    };
+    xhr.ontimeout = function(){
+        callback({status:xhr.status, errorMessage:errInfo + '(time out)'});
+    };
+    xhr.send(null);
+};
+
+function loadScript (src, cb) {
+    if (typeof require !== 'undefined') {
+        require(src);
+        return cb();
+    }
+
+    // var timer = 'load ' + src;
+    // console.time(timer);
+
+    var scriptElement = document.createElement('script');
+
+    function done() {
+        // console.timeEnd(timer);
+        // deallocation immediate whatever
+        scriptElement.remove();
+    }
+
+    scriptElement.onload = function () {
+        done();
+        cb();
+    };
+    scriptElement.onerror = function () {
+        done();
+        var error = 'Failed to load ' + src;
+        console.error(error);
+        cb(new Error(error));
+    };
+    scriptElement.setAttribute('type','text/javascript');
+    scriptElement.setAttribute('charset', 'utf-8');
+    scriptElement.setAttribute('src', src);
+
+    document.head.appendChild(scriptElement);
+}
+
+function loadScripts (srcs, cb) {
+    var n = srcs.length;
+
+    srcs.forEach(function (src) {
+        loadScript(src, function () {
+            n--;
+            if (n === 0) {
+                cb();
+            }
+        });
+    })
+}
+
+function formatPath (path) {
+    let destPath = window.__quick_compile_project__.destPath;
+    if (destPath) {
+        let prefix = 'preview-scripts';
+        if (destPath[destPath.length - 1] === '/') {
+            prefix += '/';
+        }
+        path = path.replace(prefix, destPath);
+    }
+    return path;
+}
+
+window.__quick_compile_project__ = {
+    destPath: '',
+
+    registerModule: function (path, module) {
+        path = formatPath(path);
+        modules[path].module = module;
+    },
+
+    registerModuleFunc: function (path, func) {
+        path = formatPath(path);
+        modules[path].func = func;
+
+        var sections = path.split('/');
+        var name = sections[sections.length - 1];
+        name = name.replace(/\.(?:js|ts|json)$/i, '');
+        name2path[name] = path;
+    },
+
+    require: function (request, path) {
+        var m, requestScript;
+
+        path = formatPath(path);
+        if (path) {
+            m = modules[path];
+            if (!m) {
+                console.warn('Can not find module for path : ' + path);
+                return null;
+            }
+        }
+
+        if (m) {
+            let depIndex = m.deps[request];
+            // dependence script was excluded
+            if (depIndex === -1) {
+                return null;
+            }
+            else {
+                requestScript = scripts[ m.deps[request] ];
+            }
+        }
+        
+        let requestPath = '';
+        if (!requestScript) {
+            // search from name2path when request is a dynamic module name
+            if (/^[\w- .]*$/.test(request)) {
+                requestPath = name2path[request];
+            }
+
+            if (!requestPath) {
+                if (CC_JSB) {
+                    return require(request);
+                }
+                else {
+                    console.warn('Can not find deps [' + request + '] for path : ' + path);
+                    return null;
+                }
+            }
+        }
+        else {
+            requestPath = formatPath(requestScript.path);
+        }
+
+        let requestModule = modules[requestPath];
+        if (!requestModule) {
+            console.warn('Can not find request module for path : ' + requestPath);
+            return null;
+        }
+
+        if (!requestModule.module && requestModule.func) {
+            requestModule.func();
+        }
+
+        if (!requestModule.module) {
+            console.warn('Can not find requestModule.module for path : ' + path);
+            return null;
+        }
+
+        return requestModule.module.exports;
+    },
+
+    run: function () {
+        entries.forEach(function (entry) {
+            entry = formatPath(entry);
+            var module = modules[entry];
+            if (!module.module) {
+                module.func();
+            }
+        });
+    },
+
+    load: function (cb) {
+        var self = this;
+
+        var srcs = scripts.map(function (script) {
+            var path = formatPath(script.path);
+            modules[path] = script;
+
+            if (script.mtime) {
+                path += ("?mtime=" + script.mtime);
+            }
+            return path;
+        });
+
+        console.time && console.time('load __quick_compile_project__');
+        // jsb can not analysis sourcemap, so keep separate files.
+        if (bundleScript && !isJSB) {
+            downloadText(formatPath(bundleScript), function (err, bundleSource) {
+                console.timeEnd && console.timeEnd('load __quick_compile_project__');
+                if (err) {
+                    console.error(err);
+                    return;
+                }
+
+                let evalTime = 'eval __quick_compile_project__ : ' + srcs.length + ' files';
+                console.time && console.time(evalTime);
+                var sources = bundleSource.split('\n//------QC-SOURCE-SPLIT------\n');
+                for (var i = 0; i < sources.length; i++) {
+                    if (sources[i]) {
+                        window.eval(sources[i]);
+                        // not sure why new Function cannot set breakpoints precisely
+                        // new Function(sources[i])()
+                    }
+                }
+                self.run();
+                console.timeEnd && console.timeEnd(evalTime);
+                cb();
+            })
+        }
+        else {
+            loadScripts(srcs, function () {
+                self.run();
+                console.timeEnd && console.timeEnd('load __quick_compile_project__');
+                cb();
+            });
+        }
+    }
+};
+
+// Polyfill for IE 11
+if (!('remove' in Element.prototype)) {
+    Element.prototype.remove = function () {
+        if (this.parentNode) {
+            this.parentNode.removeChild(this);
+        }
+    };
+}
+})();
+    

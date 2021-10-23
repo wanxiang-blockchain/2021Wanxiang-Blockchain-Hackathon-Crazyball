@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arialBlack_white",
+    "texture": "c163906c-0055-40bd-988c-9b7f15265aba",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      480,
+      554
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      480,
+      554
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

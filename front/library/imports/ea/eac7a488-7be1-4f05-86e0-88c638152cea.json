@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "longTapTips",
+    "texture": "aa57c768-7dd9-472a-a67e-262e1bbbd14c",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      18,
+      9
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      20,
+      11
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "circle_boarder_glow",
+    "texture": "f6800ea3-3519-4ed3-b244-0f2e668b73dd",
+    "atlas": "4d9e9118-9002-4d90-992a-90e7a17f7f81",
+    "rect": [
+      296,
+      943,
+      148,
+      148
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      148,
+      148
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

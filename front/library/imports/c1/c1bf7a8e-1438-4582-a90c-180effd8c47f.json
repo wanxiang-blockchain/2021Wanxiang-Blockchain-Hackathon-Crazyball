@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "方块内星星",
+    "texture": "825d062a-ec15-456d-8abd-9d913feee071",
+    "atlas": "",
+    "rect": [
+      6,
+      8,
+      96,
+      95
+    ],
+    "offset": [
+      0,
+      -2
+    ],
+    "originalSize": [
+      108,
+      107
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

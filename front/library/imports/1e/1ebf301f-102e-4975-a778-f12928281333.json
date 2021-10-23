@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "emptyBox",
+    "texture": "45054b29-e844-4585-a9df-8e32f964dfc3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      216
+    ],
+    "offset": [
+      0,
+      2.5
+    ],
+    "originalSize": [
+      200,
+      221
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

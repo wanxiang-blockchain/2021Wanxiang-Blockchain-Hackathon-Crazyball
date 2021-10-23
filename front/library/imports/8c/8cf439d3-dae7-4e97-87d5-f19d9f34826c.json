@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "square_sidehalf",
+    "texture": "4928394c-9cab-473c-b217-616e1a51df03",
+    "atlas": "b3177198-3c04-43d1-ad34-79e08c9d87a7",
+    "rect": [
+      384,
+      512,
+      128,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

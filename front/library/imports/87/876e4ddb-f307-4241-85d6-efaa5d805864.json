@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "packSellModel",
+    "texture": "f32ea52c-3800-4798-95a2-4af1ad347473",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      630,
+      432
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      630,
+      432
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

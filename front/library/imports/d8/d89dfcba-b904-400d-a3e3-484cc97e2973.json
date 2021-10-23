@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cannon1",
+    "texture": "629e7938-0c28-4911-9f12-5c47ab0ce9e2",
+    "atlas": "",
+    "rect": [
+      11,
+      1,
+      108,
+      97
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      130,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

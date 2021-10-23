@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "freeze",
+    "texture": "9acd661c-0cc3-4a2c-95b9-758e407ac086",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      1182
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      1182
+    ],
+    "capInsets": [
+      70,
+      70,
+      70,
+      70
+    ]
+  }
+}

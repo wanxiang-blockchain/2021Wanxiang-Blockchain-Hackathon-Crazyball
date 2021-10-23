@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clearLine",
+    "texture": "edf87886-b6ec-4143-9eb2-bbd2e048453f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      198
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      198
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

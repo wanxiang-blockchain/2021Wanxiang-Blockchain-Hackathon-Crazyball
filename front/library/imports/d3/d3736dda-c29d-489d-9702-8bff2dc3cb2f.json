@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "packGiveModel",
+    "texture": "b2319a3e-0323-4f27-952c-ed35602be07e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      630,
+      530
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      630,
+      530
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
